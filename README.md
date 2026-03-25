@@ -4,6 +4,8 @@ A fully anonymous authentication system that requires **no email, no password, a
 
 Extracted pattern from the [Satlance](https://satlance.com/)'s auth, this repository isolates the login and registration logic into a standalone demo with **no database dependency**.
 
+![Alt text](/src/assets/flow.gif)
+
 ---
 
 ## Why Anonymous Authentication?
