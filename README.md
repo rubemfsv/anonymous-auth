@@ -2,7 +2,7 @@
 
 A fully anonymous authentication system that requires **no email, no password, and no personal data**. Users authenticate using a cryptographic seed phrase (BIP-39 mnemonic) and an Ed25519 key pair — the same technology that secures cryptocurrency wallets.
 
-Extracted logic from the [Satlance](https://satlance.com/)'s auth, this repository isolates the login and registration logic into a standalone demo with **no database dependency**.
+Extracted pattern from the [Satlance](https://satlance.com/)'s auth, this repository isolates the login and registration logic into a standalone demo with **no database dependency**.
 
 ---
 
@@ -15,7 +15,7 @@ Traditional auth systems collect emails, phone numbers, or social accounts — c
 | Email + password stored on server | Only a **public key** stored on server |
 | Password resets via email | Recovery via **seed phrase** (user-held) |
 | Server knows your identity | Server knows **nothing** about you |
-| Data breaches expose PII | Breach exposes only public keys (useless) |
+| Data breaches expose personally identifiable information | Breach exposes only public keys (useless) |
 
 ### Key benefits
 
